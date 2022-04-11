@@ -1,2 +1,1 @@
-# RickAndMortyWiki
-This web application consumes the Rick and Morty API
+# Rick And Morty Wiki
