@@ -1,11 +1,8 @@
-import { CharacterCard } from './components/CharacterCard'
+import { Home } from './pages/Home'
 
 function App () {
   return (
-    <div >
-      <h1>Rick And Morty WIKI</h1>
-      <CharacterCard/>
-    </div>
+    <Home/>
   )
 }
 
