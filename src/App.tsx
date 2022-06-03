@@ -1,8 +1,8 @@
-import { Home } from './pages/Home'
+import { Navigator } from './navigation/Navigator'
 
 function App () {
   return (
-    <Home/>
+    <Navigator/>
   )
 }
 

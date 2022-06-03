@@ -4,6 +4,6 @@ interface Props {
 
 export const MainTitle = ({ title }: Props) => {
   return (
-    <h2 className="text-6xl font-bold justify-self-center">{title}</h2>
+    <h1 className="text-6xl font-bold flex justify-center mt-5">{title}</h1>
   )
 }

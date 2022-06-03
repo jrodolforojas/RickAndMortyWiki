@@ -6,6 +6,10 @@ export const useCharacters = () => {
   const nextPageUrl = useRef(API_URL)
   const [characters, setCharacters] = useState<Character[]>([] as Character[])
 
+  const handleLoadNewCharacters = () => {
+    loadCharacters()
+  }
+
   const loadCharacters = async () => {
     const response:Promise<RickAndMortyResponse> = await fetch(nextPageUrl.current, {
       method: 'GET'
@@ -23,6 +27,6 @@ export const useCharacters = () => {
 
   return {
     characters,
-    loadCharacters
+    handleLoadNewCharacters
   }
 }
